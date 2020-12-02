@@ -1,0 +1,126 @@
+@media screen and (max-width: 791px) {
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+    body {
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .container {
+        width: 90%;
+    }
+    
+    #pertama {}
+
+    #pertama .gambar .judul h1{
+       font-size: 40px;
+    }
+
+    #pertama .gambar .judul p {
+        font-size: 20px;
+    }
+
+    #pertama .gambar .judul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .shape1 {
+        display: none;
+    }
+
+    .shape2 {
+        display: none;
+    }
+
+    #kedua {
+
+    }
+
+    #kedua .dua {
+        width: 90%;
+    }
+
+    #kedua .judul h1 {
+        text-align: center;
+    }
+
+    #kedua .main {
+        width: 100%;
+        margin: auto;
+    }
+
+    #kedua .konten {
+        flex-wrap: wrap-reverse;
+        width: 100%;
+    }
+
+
+    #ketiga {
+        margin: auto;
+        width: 100%;
+        padding: 350px 0 0 0;
+    }
+
+    #ketiga .k-konten {
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    #ketiga .k-konten .row {
+       padding-bottom: 50px;
+    }
+
+
+    #empat {
+        width: 100%;
+    }
+
+    #empat .e-main {
+        flex-wrap: wrap;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    #empat .e-main h1 {
+        width: 100%;
+    }
+
+    #empat .e-main .e-konten {
+        display: block;
+        width: 100%;
+    }
+
+    #empat .e-main .e-konten .row {
+        margin-bottom: 40px;
+    }
+
+    #empat .e-main .e-konten .row img {
+        margin: auto;
+        display: flex;
+    }
+
+    #lima .l-main {
+        display: block;
+    }
+
+    #lima .l-main .bulat {
+        display: none;
+    }
+
+    #lima .l-main .kiri {
+        width: 100%;
+        display: none;
+    }
+
+    #lima .l-main .kiri img{
+        display: none;
+    }
+
+    #lima .l-main .kanan {
+        width: 100%;
+    }
+
+    #lima .l-main .kanan .l-isi {
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
+}
+
